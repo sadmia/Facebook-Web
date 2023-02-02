@@ -1,0 +1,7 @@
+.post-section-in {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr 8fr 2fr;
+    grid-column-gap: 15px;
+}

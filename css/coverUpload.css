@@ -1,0 +1,180 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: arial;
+	background: #3333;
+}
+
+
+.postDiv {
+	width: 100%;
+	height: 100%;
+}
+
+.postInput {
+	width: 500px;
+	border: 1px solid #3335;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin: 100px auto;
+	background-color: #fff;
+}
+.postInput h3 {
+	text-align: center;
+	padding: 20px;
+	border-bottom: 1px solid #3335;
+	color: #333;
+}
+
+.imgDiv {
+	width: 50px;
+	height: 50px;
+	background: #333;
+	border-radius: 50%;
+	margin: 15px;
+	border: 1px solid #3335;
+	position: relative;
+}
+.imgDiv img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.postNamePublic {
+	position: absolute;
+	content: "";
+	width: 250px;
+	left: 60px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.postNamePublic select {
+	font-size: 12px;
+	outline: none;
+}
+
+.postInput {
+	position: relative;
+}
+#exitBtn {
+	font-size: 30px;
+	color: #3339;
+	position: absolute;
+	content: "";
+	top: 20px;
+	right: 20px;
+}
+#exitBtn:hover {
+	color: #333;
+}
+#exitBtn:active {
+	color: #000;
+}
+
+.postInput textarea {
+	width: 100%;
+	height: 80px;
+	outline: none;
+	padding: 10px 30px;
+	font-family: arial;
+	box-sizing: border-box;
+	border: none;
+	font-size: 15px;
+	color: #333;
+	resize: none;
+}
+
+.imagesFild {
+	width: 96%;
+	margin: 2%;
+	box-sizing: border-box;
+	border: 1px solid #3333;
+	border-radius: 10px;
+}
+.imagesUploadDiv {
+	width: 96%;
+	margin: 2%;
+	background-color: #3333;
+	border-radius: 10px;
+	padding: 100px 50px;
+	box-sizing: border-box;
+	position: relative;
+	cursor: pointer;
+	transition: 0.3s;
+}
+.imagesUploadDiv:hover {
+	background-color: #3335;
+}
+.centerDiv {
+	position: absolute;
+	content: "";
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.imagesUploadDiv .centerDiv i {
+	font-size: 45px;
+	color: #333;
+	margin-left: 33px;
+	padding-bottom: 10px;
+	color: #235bf7;
+}
+.imagesUploadDiv .centerDiv input {
+	width: 0;
+	height: 0;
+}
+.imagesUploadDiv .centerDiv p {
+	font-size: 18px;
+	color: #333;
+	text-align: center;
+}
+
+.addPost {
+	height: 30px;
+	padding: 0px;
+	background-color: #fff;
+}
+.addPost:hover {
+	background-color: #fff;
+}
+.addPost p {
+	line-height: 30px;
+	font-size: 14px;
+}
+
+.addPost input {
+	width: 0;
+	height: 0;
+}
+
+.addPost {
+	position: relative;
+	cursor: auto;
+}
+.addPost i {
+	position: absolute;
+	content: "";
+	right: 15px;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 18px;
+	cursor: pointer;
+	color: #235bf7;
+}
+
+.postBtn {
+	width: 96%;
+	margin: 2%;
+	border-radius: 10px;
+	border: none;
+	background-color: #235bf7;
+	color: #fff;
+	cursor: pointer;
+	padding: 10px;
+	font-size: 16px;
+}
+

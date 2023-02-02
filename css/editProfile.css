@@ -1,0 +1,399 @@
+* {
+	margin: 0;
+	padding: 0;
+} 
+body {
+	font-family: arial;
+	background: #3333;
+}
+
+.editFild {
+	width: 100%;
+	height: 100%;
+}
+.fildFomr {
+	width: 500px;
+	padding: 50px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	border: 1px solid #3333;
+	margin: 100px auto;
+	background: #fff;
+}
+
+.profile-image-div {
+	position: relative;
+	width: 125px;
+	height: 125px;
+	border: 3px solid #fff;
+	background-color: #333;
+	border-radius: 50%;
+	margin: 35px 0px 35px 135px;
+}
+.profile-image-div img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	object-fit: cover;
+	cursor: pointer;
+	transition: 0.3s;
+}
+.profile-image-div img:hover {
+	filter: brightness(0.9);
+} 
+
+.profile-image-div span {
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+	cursor: pointer;
+	padding: 5px 5px;
+	border-radius: 50%;
+	background-color: #d5d5d5;
+	font-size: 18px;
+	color: #333;
+}
+
+
+
+
+
+
+.cover-image-section {
+	width: 100%;
+	height: 125px;
+	background-image: linear-gradient(#6FA702, #fff);
+	margin: 35px 0px;
+
+}
+.cover-hader-site {
+	position: relative;
+	width: 70%;
+	height: 100%;
+	margin: auto;
+}
+.cover-hader-site img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	cursor: pointer;
+	border-radius: 0px 0px 10px 10px;
+}
+
+.cover-image-div {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: 30px;
+}
+.cover-image-edite-btn {
+	text-align: right;
+}
+.cover-image-edite-btn button {
+	padding: 7px 10px;
+	border-radius: 5px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	font-size: 10px;
+	background-color: #fff;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	color: #333;
+}
+.cover-image-edite-btn button:hover {
+	background-color: #F2F2F2;
+}
+.cover-image-edite-btn button i {
+	margin-right: 5px;
+}
+
+
+.bio-btn-click {
+
+	margin: 35px 0px;
+}
+.input-box {
+	width: 100%;
+	padding: 10px 10px;
+	background-color: #E4E6EB;
+	border: 1px solid #1877F2;
+	border-radius: 5px;
+	box-sizing: border-box;
+	outline: none;
+	color: #333;
+	text-align: center;
+	font-size: 15px;
+}
+.length-count-txt {
+	font-size: 11px !important;
+	color: #333 !important;
+	text-align: right !important;
+	padding: 3px !important;
+}
+
+
+
+
+
+
+
+.SELECTED_HOBBIES_P {
+	margin-top: 25px;
+	margin-bottom: 5px;
+	font-size: 12px;
+	color: #333;
+}
+.SELECTED_HOBBIES {
+	width: 100%;
+	padding: 15px;
+	box-sizing: border-box;
+	border: 1px solid #3332;
+	border-radius: 10px;
+}
+
+.hobisDiv {
+	margin: 3px 0px;
+	padding: 8px;
+	font-size: 12px;
+	color: #333;
+	border-radius: 10px;
+	background: #849eff;
+	color: blue;
+	display: inline-block;
+	cursor: pointer;
+	padding-right: 23px;
+	position: relative;
+}
+
+#hobbBtnExit {
+	position: absolute;
+	content: "";
+	top: 50%;
+	right: 3px;
+	transform: translateY(-50%);
+	border: none;
+	background: #fff0;
+}
+
+.hobisDiv:hover #hobbBtnExit {
+	color: #fff;
+}
+
+.addHobbies {
+	margin-top: 10px;
+}
+.addHobbies input {
+	width: 83%;
+	padding: 10px 15px;
+	box-sizing: border-box;
+	background-color: #E4E6EB;
+	border: 1px solid #1877F2;
+	border-radius: 5px;
+	outline: none;
+	color: #333;
+	font-size: 15px;
+}
+.addHobbies button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 11px 17px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.addHobbies button:active {
+	  background-color: #1e6621; 
+}
+
+.saveBtn {
+	text-align: right;
+	margin-top: 15px;
+}
+.saveBtn button {
+	  background-color: #3383e7; 
+	  border: none;
+	  color: white;
+	  padding: 11px 17px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 16px;
+	  outline: none;
+	  border-radius: 5px;
+	  cursor: pointer;
+}
+.addLocationBtn {
+	background-color: #3383e7; 
+	  border: none;
+	  color: white;
+	  padding: 11px 17px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 16px;
+	  outline: none;
+	  border-radius: 5px;
+	  cursor: pointer;
+}
+
+.saveBtn button:active {
+	  background-color: #134e97; 
+}
+
+
+
+.Customize_your_intro {
+	margin: 35px 0px;
+}
+.Customize_your_intro p {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.workP {
+	margin-top: 10px;
+}
+.wordShow {
+	position: relative;
+	margin-left: 35px;
+	margin-top: 10px;
+	height: 40px;
+}
+.wordShow form {
+	height: 0px;
+}
+.wordShow input:first-child {
+	width: 10%;
+	height: 25px;
+	position: absolute;
+	content: "";
+	left: -40px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.wordShow input {
+	width: 40%;
+	padding: 10px 15px;
+	box-sizing: border-box;
+	background-color: #E4E6EB;
+	border: 1px solid #1877F2;
+	border-radius: 5px;
+	outline: none;
+	color: #333;
+	font-size: 15px;
+}
+
+.workAdd {
+	width: 50% !important; 
+}
+
+.wordShow i {
+	width: 25px;
+	position: absolute;
+	content: '';
+	right: 0px;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 20px;
+	color: red;
+	cursor: pointer;
+}
+
+.addworkBtn {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 11px 17px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.addworkBtn:active {
+	  background-color: #1e6621; 
+}
+.addworkBtn i {
+	margin-right: 5px;
+}
+
+
+.custom-select  {
+	position: relative;
+	margin-left: 35px;
+	margin-top: 10px;
+	margin-bottom: 35px;
+}
+.custom-select select {
+	width: 91%;
+	padding: 10px 15px;
+	box-sizing: border-box;
+	background-color: #E4E6EB;
+	border: 1px solid #1877F2;
+	border-radius: 5px;
+	outline: none;
+	color: #333;
+	font-size: 15px;
+}
+.custom-select input:first-child {
+	width: 10%;
+	height: 25px;
+	position: absolute;
+	content: "";
+	left: -40px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+
+.fildFomr {
+	position: relative;
+	cursor: auto;
+}
+.fildFomr .exitBtn {
+	position: absolute;
+	content: "";
+	right: 20px;
+	top: 20px;
+	font-size: 25px;
+	cursor: pointer;
+	color: #3339;
+}
+.exitBtn:hover {
+	color: #333;
+}
+	
+.exitBtn:active {
+	color: #000;
+}
+
+.fa-save {
+	color: green !important;
+}
+
+
+
+.relaSaveBtn {
+    width: 25px;
+    position: absolute;
+    content: '';
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: red;
+    cursor: pointer;
+}
+
+

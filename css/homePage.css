@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: arial;
+}
+
+a {
+	text-decoration: none;
+}
+
+.haderBar {
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: #1877F2;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.haderBar .firstUL, .lastUL {
+	padding: 0;
+	margin: 0;
+}
+
+.firstUL li,
+.lastUL li {
+	font-size: 20px;
+	display: inline-block;
+	padding: 6px 10px;
+}
+.firstUL li i, 
+.lastUL li i {
+	cursor: pointer;
+	color: #fff;
+}
+
+
+
+.firstUL li {
+	padding: 6px 20px;
+}
+
+.haderBar img {
+	width: 100px;
+}
+
+.lastUL {
+	text-align: right;
+}
+.firstUL {
+	text-align: center;
+}
+
+
+@media screen and (max-width: 1199px) {
+	.haderBar {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+@media screen and (max-width: 991px) {
+	.haderBar {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	.haderBar img {
+		display: none;
+	}
+}
+@media screen and (max-width: 767) {
+	.haderBar {
+		display: grid;
+		grid-template-columns: 3fr 2fr;
+	}
+}

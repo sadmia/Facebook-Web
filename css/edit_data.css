@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: arial;
+}
+
+.centerDataInput {
+	width: 400px;
+	background: #fff;
+	border: 1px solid #3333;
+	border-radius: 5px;
+	margin: 100px auto;
+	padding: 40px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.worningText {
+	color: green;
+	margin-bottom: 30px;
+}
+.haderText {
+	font-size: 16px;
+	color: #333;
+	margin-bottom: 15px;
+}
+.formClass label {
+	width: 100%;
+}
+.formClass label input, .passView input {
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #3335;
+	margin: 5px 0px;
+	outline: none;
+}
+
+.genderDiv {
+	margin: 10px 0px 20px 0px;
+}
+.genderDiv span {
+	margin-right: 15px;
+}
+
+.worningTextRed {
+	margin-left: 10px;
+	color: red;
+	font-size: 14px;
+	visibility: hidden;
+}
+
+
+#closeBtn {
+	position: absolute;
+	content: "";
+	right: 20px;
+	top: 20px;
+	color: #3339;
+	font-size: 25px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+#closeBtn:hover {
+	color: #333;
+}
+.passView {
+	position: relative;
+	width: 100%;
+}
+.passView i {
+  position: absolute;
+  content: "";
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #333;
+  cursor: pointer;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  outline: none;
+  cursor: pointer;
+}
+.button:active {
+	background-color: #287a2b;
+}
+
+.genderDiv label input  {
+	width: 15px;
+}
+
+.resetBtn {
+	background: #9252ad;
+}
+.resetBtn:active {
+	background: #71308d;
+}

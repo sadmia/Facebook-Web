@@ -1,0 +1,44 @@
+.box-design {
+	padding: 10px;
+}
+
+.post-section-in {
+    display: grid;
+    grid-template-columns: 2fr 6fr 2fr;
+    grid-column-gap: 15px;
+}
+
+
+.post-infarmation div h2 {
+    font-size: 14px;
+    left: 5px;
+    position: absolute;
+    content: "";
+    top: 35%;
+    transform: translateY(-50%);
+}
+
+
+.addFriendBtn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 14px;
+    color: #333;
+    overflow: hidden;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #1877F2;
+    color: #1877F2;
+}
+
+@media screen and (max-width: 575px) {
+	.post-section-in {
+	    display: grid;
+	    grid-template-columns: 1fr;
+	    grid-column-gap: 15px;
+	}
+}
